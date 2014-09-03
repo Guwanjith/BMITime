@@ -10,6 +10,9 @@
 		F2055E9C19A535A500E21DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2055E9B19A535A500E21DFE /* Foundation.framework */; };
 		F2055E9F19A535A500E21DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2055E9E19A535A500E21DFE /* main.m */; };
 		F2055EA319A535A500E21DFE /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2055EA219A535A500E21DFE /* BMITime.1 */; };
+		F2055EAB19A535D700E21DFE /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F2055EAA19A535D700E21DFE /* BNRPerson.m */; };
+		F2A12D3419A8A57F009F2642 /* BNRAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A12D3319A8A57F009F2642 /* BNRAsset.m */; };
+		F2F2E2D419A60C16009EE14E /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2E2D319A60C16009EE14E /* BNREmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		F2055E9E19A535A500E21DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2055EA119A535A500E21DFE /* BMITime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMITime-Prefix.pch"; sourceTree = "<group>"; };
 		F2055EA219A535A500E21DFE /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
+		F2055EA919A535D700E21DFE /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
+		F2055EAA19A535D700E21DFE /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		F2A12D3219A8A57F009F2642 /* BNRAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAsset.h; sourceTree = "<group>"; };
+		F2A12D3319A8A57F009F2642 /* BNRAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAsset.m; sourceTree = "<group>"; };
+		F2F2E2D219A60C16009EE14E /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
+		F2F2E2D319A60C16009EE14E /* BNREmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +57,12 @@
 		F2055E8F19A535A500E21DFE = {
 			isa = PBXGroup;
 			children = (
+				F2F2E2D219A60C16009EE14E /* BNREmployee.h */,
+				F2F2E2D319A60C16009EE14E /* BNREmployee.m */,
+				F2A12D3219A8A57F009F2642 /* BNRAsset.h */,
+				F2A12D3319A8A57F009F2642 /* BNRAsset.m */,
+				F2055EA919A535D700E21DFE /* BNRPerson.h */,
+				F2055EAA19A535D700E21DFE /* BNRPerson.m */,
 				F2055E9D19A535A500E21DFE /* BMITime */,
 				F2055E9A19A535A500E21DFE /* Frameworks */,
 				F2055E9919A535A500E21DFE /* Products */,
@@ -139,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F2E2D419A60C16009EE14E /* BNREmployee.m in Sources */,
 				F2055E9F19A535A500E21DFE /* main.m in Sources */,
+				F2055EAB19A535D700E21DFE /* BNRPerson.m in Sources */,
+				F2A12D3419A8A57F009F2642 /* BNRAsset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +271,7 @@
 				F2055EA819A535A500E21DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
